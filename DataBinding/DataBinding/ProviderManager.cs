@@ -8,6 +8,7 @@ namespace DataBinding
 {
 	public class ProviderManager
 	{
+		#region property
 		//TypeCode
 		internal static readonly Type[] DefaultTypes= new Type[] { 
 			null,//0 TypeCode.Empty
@@ -32,6 +33,14 @@ namespace DataBinding
 		Type[] m_TypeArgs1 = new Type[1];
 		Type[] m_TypeArgs2 = new Type[2];
 		Delegate[] m_ConvertArgs2 = new Delegate[2];
+
+		#endregion
+
+		public void Init()
+		{
+			InitDefaultConverts();
+			InitDefaultProviders();
+		}
 
 		#region Binding
 
@@ -411,7 +420,7 @@ namespace DataBinding
 			}
 		}
 
-		protected void InitDefaultConvert()
+		protected void InitDefaultConverts()
 		{
 			//bool
 			RegisterTypeConvert(DefaultTypes[(int)TypeCode.Boolean], DefaultTypes[(int)TypeCode.Boolean], (Func<bool, bool>)Convert.ToBoolean);

@@ -50,7 +50,6 @@
     <Compile Include="DataBinding\ProviderManager.cs" />
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\PropertyBinding.cs" />
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\PropertyBindingProvider.cs" />
-    <Compile Include="DataBinding\BindingProviders\PropertyProviders\DelegateProvider.cs" />
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\SystemConvertProvider.cs" />
     <Compile Include="DataBinding\IBinding.cs" />
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\FloatStringProvider.cs" />

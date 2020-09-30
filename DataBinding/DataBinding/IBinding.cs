@@ -1,6 +1,6 @@
 ﻿namespace DataBinding
 {
-	public enum PropertyBindType
+	public enum BindType
 	{
 		OneWay,
 		TwoWay,
@@ -9,9 +9,8 @@
 
 	public interface IBinding
 	{
-		void Bind(object source, string sourcePropertyName, object target, string targetPropertyName, PropertyBindType bindType);
-
-		void SyncSource();
+		void Bind(object source, string sourceMemberName, object target, string targetMemberName, BindType bindType);
 		void SyncTarget();
+		void SyncSource();
 	}
 }

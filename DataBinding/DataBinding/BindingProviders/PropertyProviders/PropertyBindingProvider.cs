@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 
-namespace DataBinding.Providers
+namespace DataBinding.PropertyProviders
 {
-	public abstract class PropertyBindingBase<TSourceProperty, TTargetProperty> : PropertyBinding
+	public abstract class PropertyBindingProvider<TSourceProperty, TTargetProperty> : PropertyBinding
 	{
 		//target.property =	source.property
 		protected Func<TSourceProperty> m_SourceGetter;
@@ -27,7 +27,7 @@ namespace DataBinding.Providers
 			m_SourceGetter = BindingHelper.CreateGetter<TSourceProperty>(m_Source, getMethodInfo);
 			m_TargetSetter = BindingHelper.CreateSetter<TTargetProperty>(m_Target, setMethodInfo);
 
-			if (m_BindType == PropertyBindType.TwoWay)
+			if (m_BindType == BindType.TwoWay)
 			{
 				setMethodInfo = sourcePropertyInfo.GetSetMethod();
 				getMethodInfo = targetPropertyInfo.GetGetMethod();

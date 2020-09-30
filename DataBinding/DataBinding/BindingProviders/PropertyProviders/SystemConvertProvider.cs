@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 
-namespace DataBinding.Providers
+namespace DataBinding.PropertyProviders
 {
-	public class PropertyBindingGeneric<TSourceProperty, TTargetProperty> : PropertyBindingBase<TSourceProperty,TTargetProperty>
+	public class SystemConvertProvider<TSourceProperty, TTargetProperty> : PropertyBindingProvider<TSourceProperty,TTargetProperty>
 	{
 		protected Type m_SourcePropertyType;
 		protected Type m_TargetPropertyType;
@@ -14,19 +14,19 @@ namespace DataBinding.Providers
 			m_TargetPropertyType = targetPropertyInfo.PropertyType;
 		}
 
-		public override void SyncSource()
-		{
-			if (m_BindType == PropertyBindType.TwoWay)
-			{
-				TTargetProperty v = m_TargetGetter();
-				m_SourceSetter((TSourceProperty)Convert.ChangeType(v, m_SourcePropertyType));
-			}
-		}
-
 		public override void SyncTarget()
 		{
 			TSourceProperty v = m_SourceGetter();
 			m_TargetSetter((TTargetProperty)Convert.ChangeType(v, m_TargetPropertyType));
+		}
+
+		public override void SyncSource()
+		{
+			if (m_BindType == BindType.TwoWay)
+			{
+				TTargetProperty v = m_TargetGetter();
+				m_SourceSetter((TSourceProperty)Convert.ChangeType(v, m_SourcePropertyType));
+			}
 		}
 	}
 }

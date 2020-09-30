@@ -54,7 +54,11 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="DataBinding\Providers\PropertyBindingGenericTests.cs" />
+    <Compile Include="DataBinding\PropertyProviders\PropertyBindingCustomConvertTests.cs" />
+    <Compile Include="DataBinding\PropertyProviders\PropertyBindingDelegateTests.cs" />
+    <Compile Include="DataBinding\PropertyProviders\PropertyBindingGenericTests.cs" />
+    <Compile Include="DataBinding\PropertyProviders\PropertyBindingFloatStringTests.cs" />
+    <Compile Include="DataBinding\PropertyProviders\PropertyBindingIntStringTests.cs" />
     <Compile Include="DataBinding\UserView.cs" />
     <Compile Include="DataBinding\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

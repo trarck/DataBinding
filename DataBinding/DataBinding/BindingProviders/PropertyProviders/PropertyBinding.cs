@@ -2,7 +2,7 @@
 {
 	public abstract class PropertyBinding:IBinding
 	{
-		protected PropertyBindType m_BindType;
+		protected BindType m_BindType;
 
 		protected object m_Source;
 		protected object m_Target;
@@ -12,7 +12,7 @@
 		//protected Type m_SourcePropertyType;
 		//protected Type m_TargetPropertyType;
 
-		public virtual void Bind(object source, string sourcePropertyName, object target, string targetPropertyName, PropertyBindType bindType)
+		public virtual void Bind(object source, string sourcePropertyName, object target, string targetPropertyName, BindType bindType)
 		{
 			m_Source = source;
 			m_SourcePropertyName = sourcePropertyName;
@@ -29,12 +29,12 @@
 			
 		}
 
-		public virtual void SyncSource()
+		public virtual void SyncTarget()
 		{
 
 		}
 
-		public virtual void SyncTarget()
+		public virtual void SyncSource()
 		{
 
 		}

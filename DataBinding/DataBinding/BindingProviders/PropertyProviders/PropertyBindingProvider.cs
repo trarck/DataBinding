@@ -27,7 +27,7 @@ namespace DataBinding.PropertyProviders
 			m_SourceGetter = BindingHelper.CreateGetter<TSourceProperty>(m_Source, getMethodInfo);
 			m_TargetSetter = BindingHelper.CreateSetter<TTargetProperty>(m_Target, setMethodInfo);
 
-			if (m_BindType == BindType.TwoWay)
+			//if (m_BindType == BindType.TwoWay)
 			{
 				setMethodInfo = sourcePropertyInfo.GetSetMethod();
 				getMethodInfo = targetPropertyInfo.GetGetMethod();

@@ -25,10 +25,10 @@ namespace DataBinding
 			typeof(string)
 		};
 
-		//<sourceType,<targetType,ProviderClassType>>
+		//绑定提供类。<sourceType,<targetType,ProviderClassType>>
 		Dictionary<Type, Dictionary<Type, Type>> m_BindingProviderClasses = new Dictionary<Type, Dictionary<Type, Type>>();
 
-		//<fromType,<toType,convertFunction>>
+		//类型转换。<fromType,<toType,convertFunction>>
 		Dictionary<Type, Dictionary<Type, Delegate>> m_TypeConverts = new Dictionary<Type, Dictionary<Type, Delegate>>();
 		Type[] m_TypeArgs1 = new Type[1];
 		Type[] m_TypeArgs2 = new Type[2];
@@ -99,14 +99,10 @@ namespace DataBinding
 		public IBinding GetCustomPropertyBinding(Type sourceType, Type targetType)
 		{
 			IBinding binding = null;
-			Dictionary<Type, Type> targetBindings = null;
-			if (m_BindingProviderClasses.TryGetValue(sourceType, out targetBindings))
+			Type providerClass = GetBindingProviderClass(sourceType, targetType);
+			if (providerClass != null)
 			{
-				Type bindingClassType = null;
-				if (targetBindings.TryGetValue(targetType, out bindingClassType))
-				{
-					binding = Activator.CreateInstance(bindingClassType) as IBinding;
-				}
+				binding = Activator.CreateInstance(providerClass) as IBinding;
 			}
 			return binding;
 		}
@@ -684,10 +680,7 @@ namespace DataBinding
 
         public override void SyncSource()
         {{
-            if (m_BindType == BindType.TwoWay)
-            {{
-                sourceSetter(Convert.To{0}(targetGetter()));
-            }}
+            sourceSetter(Convert.To{0}(targetGetter()));
         }}
     }}";
 

@@ -56,7 +56,8 @@ namespace Test
 		static int N = 1000000;
 		static void Main(string[] args)
 		{
-			GenerateProviderRegisters();
+			//GenerateProviderRegisters();
+			GenerateDefaultProviders();
 			Console.Read();
 		}
 

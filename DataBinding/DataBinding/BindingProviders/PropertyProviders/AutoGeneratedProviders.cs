@@ -13,10 +13,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -29,10 +26,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -45,10 +39,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -61,10 +52,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -77,10 +65,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -93,10 +78,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -109,10 +91,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -125,10 +104,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -141,10 +117,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -157,10 +130,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -173,10 +143,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -189,10 +156,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -205,10 +169,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -221,10 +182,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -237,10 +195,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -255,10 +210,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -271,10 +223,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -287,10 +236,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -303,10 +249,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -319,10 +262,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -335,10 +275,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -351,10 +288,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -367,10 +301,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -383,10 +314,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -399,10 +327,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -415,10 +340,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -431,10 +353,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -447,10 +366,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -463,10 +379,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -479,10 +392,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -497,10 +407,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -513,10 +420,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -529,10 +433,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -545,10 +446,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -561,10 +459,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -577,10 +472,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -593,10 +485,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -609,10 +498,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -625,10 +511,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -641,10 +524,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -657,10 +537,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -673,10 +550,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -689,10 +563,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -705,10 +576,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -721,10 +589,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -739,10 +604,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -755,10 +617,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -771,10 +630,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -787,10 +643,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -803,10 +656,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -819,10 +669,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -835,10 +682,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -851,10 +695,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -867,10 +708,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -883,10 +721,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -899,10 +734,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -915,10 +747,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -931,10 +760,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -947,10 +773,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -963,10 +786,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -981,10 +801,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -997,10 +814,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -1013,10 +827,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -1029,10 +840,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -1045,10 +853,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -1061,10 +866,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -1077,10 +879,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -1093,10 +892,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -1109,10 +905,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -1125,10 +918,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -1141,10 +931,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -1157,10 +944,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -1173,10 +957,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -1189,10 +970,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -1205,10 +983,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -1223,10 +998,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -1239,10 +1011,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -1255,10 +1024,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -1271,10 +1037,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -1287,10 +1050,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -1303,10 +1063,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -1319,10 +1076,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -1335,10 +1089,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -1351,10 +1102,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -1367,10 +1115,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -1383,10 +1128,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -1399,10 +1141,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -1415,10 +1154,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -1431,10 +1167,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -1447,10 +1180,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -1465,10 +1195,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -1481,10 +1208,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -1497,10 +1221,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -1513,10 +1234,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -1529,10 +1247,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -1545,10 +1260,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -1561,10 +1273,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -1577,10 +1286,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -1593,10 +1299,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -1609,10 +1312,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -1625,10 +1325,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -1641,10 +1338,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -1657,10 +1351,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -1673,10 +1364,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -1689,10 +1377,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -1707,10 +1392,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -1723,10 +1405,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -1739,10 +1418,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -1755,10 +1431,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -1771,10 +1444,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -1787,10 +1457,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -1803,10 +1470,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -1819,10 +1483,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -1835,10 +1496,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -1851,10 +1509,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -1867,10 +1522,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -1883,10 +1535,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -1899,10 +1548,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -1915,10 +1561,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -1931,10 +1574,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -1949,10 +1589,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -1965,10 +1602,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -1981,10 +1615,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -1997,10 +1628,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -2013,10 +1641,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -2029,10 +1654,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -2045,10 +1667,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -2061,10 +1680,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -2077,10 +1693,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -2093,10 +1706,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -2109,10 +1719,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -2125,10 +1732,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -2141,10 +1745,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -2157,10 +1758,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -2173,10 +1771,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -2191,10 +1786,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -2207,10 +1799,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -2223,10 +1812,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -2239,10 +1825,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -2255,10 +1838,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -2271,10 +1851,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -2287,10 +1864,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -2303,10 +1877,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -2319,10 +1890,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -2335,10 +1903,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -2351,10 +1916,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -2367,10 +1929,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -2383,10 +1942,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -2399,10 +1955,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -2415,10 +1968,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -2433,10 +1983,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -2449,10 +1996,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -2465,10 +2009,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -2481,10 +2022,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -2497,10 +2035,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -2513,10 +2048,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -2529,10 +2061,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -2545,10 +2074,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -2561,10 +2087,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -2577,10 +2100,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -2593,10 +2113,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -2609,10 +2126,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -2625,10 +2139,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -2641,10 +2152,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -2657,10 +2165,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -2675,10 +2180,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -2691,10 +2193,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -2707,10 +2206,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -2723,10 +2219,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -2739,10 +2232,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -2755,10 +2245,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -2771,10 +2258,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -2787,10 +2271,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -2803,10 +2284,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -2819,10 +2297,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -2835,10 +2310,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -2851,10 +2323,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -2867,10 +2336,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -2883,10 +2349,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -2899,10 +2362,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -2917,10 +2377,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -2933,10 +2390,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -2949,10 +2403,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -2965,10 +2416,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -2981,10 +2429,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -2997,10 +2442,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -3013,10 +2455,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -3029,10 +2468,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -3045,10 +2481,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -3061,10 +2494,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -3077,10 +2507,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -3093,10 +2520,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -3109,10 +2533,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -3125,10 +2546,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -3141,10 +2559,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -3159,10 +2574,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -3175,10 +2587,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -3191,10 +2600,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -3207,10 +2613,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -3223,10 +2626,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -3239,10 +2639,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -3255,10 +2652,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -3271,10 +2665,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -3287,10 +2678,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -3303,10 +2691,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -3319,10 +2704,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -3335,10 +2717,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -3351,10 +2730,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -3367,10 +2743,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -3383,10 +2756,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 
@@ -3401,10 +2771,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToBoolean(targetGetter()));
-            }
+            sourceSetter(Convert.ToBoolean(targetGetter()));
         }
     }
 
@@ -3417,10 +2784,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToChar(targetGetter()));
-            }
+            sourceSetter(Convert.ToChar(targetGetter()));
         }
     }
 
@@ -3433,10 +2797,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToSByte(targetGetter()));
         }
     }
 
@@ -3449,10 +2810,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToByte(targetGetter()));
-            }
+            sourceSetter(Convert.ToByte(targetGetter()));
         }
     }
 
@@ -3465,10 +2823,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt16(targetGetter()));
         }
     }
 
@@ -3481,10 +2836,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt16(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt16(targetGetter()));
         }
     }
 
@@ -3497,10 +2849,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt32(targetGetter()));
         }
     }
 
@@ -3513,10 +2862,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt32(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt32(targetGetter()));
         }
     }
 
@@ -3529,10 +2875,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToInt64(targetGetter()));
         }
     }
 
@@ -3545,10 +2888,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToUInt64(targetGetter()));
-            }
+            sourceSetter(Convert.ToUInt64(targetGetter()));
         }
     }
 
@@ -3561,10 +2901,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToSingle(targetGetter()));
-            }
+            sourceSetter(Convert.ToSingle(targetGetter()));
         }
     }
 
@@ -3577,10 +2914,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDouble(targetGetter()));
-            }
+            sourceSetter(Convert.ToDouble(targetGetter()));
         }
     }
 
@@ -3593,10 +2927,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDecimal(targetGetter()));
-            }
+            sourceSetter(Convert.ToDecimal(targetGetter()));
         }
     }
 
@@ -3609,10 +2940,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToDateTime(targetGetter()));
-            }
+            sourceSetter(Convert.ToDateTime(targetGetter()));
         }
     }
 
@@ -3625,10 +2953,7 @@ namespace DataBinding.PropertyProviders
 
         public override void SyncSource()
         {
-            if (m_BindType == BindType.TwoWay)
-            {
-                sourceSetter(Convert.ToString(targetGetter()));
-            }
+            sourceSetter(Convert.ToString(targetGetter()));
         }
     }
 }

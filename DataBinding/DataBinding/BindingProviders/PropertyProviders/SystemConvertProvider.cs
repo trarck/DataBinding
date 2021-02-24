@@ -28,5 +28,12 @@ namespace DataBinding.PropertyProviders
 				m_SourceSetter((TSourceProperty)Convert.ChangeType(v, m_SourcePropertyType));
 			}
 		}
+
+		public override void Clean()
+		{
+			m_SourcePropertyType = null;
+			m_TargetPropertyType = null;
+			base.Clean();
+		}
 	}
 }

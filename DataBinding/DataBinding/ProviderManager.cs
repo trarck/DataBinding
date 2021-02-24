@@ -28,6 +28,8 @@ namespace DataBinding
 		//绑定提供类。<sourceType,<targetType,ProviderClassType>>
 		Dictionary<Type, Dictionary<Type, Type>> m_BindingProviderClasses = new Dictionary<Type, Dictionary<Type, Type>>();
 
+		Dictionary<Type, Dictionary<Type, Stack<IBinding>>> m_BindingProviderPools = new Dictionary<Type, Dictionary<Type, Stack<IBinding>>>();
+
 		//类型转换。<fromType,<toType,convertFunction>>
 		Dictionary<Type, Dictionary<Type, Delegate>> m_TypeConverts = new Dictionary<Type, Dictionary<Type, Delegate>>();
 		Type[] m_TypeArgs1 = new Type[1];
@@ -380,6 +382,38 @@ namespace DataBinding
 			RegisterBindingProviderClass(DefaultTypes[(int)TypeCode.Decimal], DefaultTypes[(int)TypeCode.String], typeof(DecimalStringProvider));
 			RegisterBindingProviderClass(DefaultTypes[(int)TypeCode.DateTime], DefaultTypes[(int)TypeCode.String], typeof(DateTimeStringProvider));
 			RegisterBindingProviderClass(DefaultTypes[(int)TypeCode.String], DefaultTypes[(int)TypeCode.String], typeof(StringStringProvider));
+		}
+
+		#endregion
+
+		#region Binding Pool
+
+		protected IBinding GetBindingProvider(Type sourceType,Type targetType)
+		{
+			IBinding provider = null;
+			Dictionary<Type, Stack<IBinding>> targetMap = null;
+			if (m_BindingProviderPools.TryGetValue(sourceType, out targetMap))
+			{
+				Stack<IBinding> providerPool = null;
+				if (targetMap.TryGetValue(targetType, out providerPool))
+				{
+					if (providerPool.Count > 0)
+					{
+						provider = providerPool.Pop();
+					}
+				}
+				else
+				{
+					providerPool = new Stack<IBinding>();
+					targetMap[targetType] = providerPool;
+				}
+			}
+			return provider;
+		}
+
+		protected void ReleaseBindingProvider()
+		{
+
 		}
 
 		#endregion

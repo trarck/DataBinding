@@ -38,5 +38,14 @@
 		{
 
 		}
+
+		public virtual void Clean()
+		{
+			m_BindType = BindType.None;
+			m_Source = null;
+			m_Target = null;
+			m_SourcePropertyName = null;
+			m_TargetPropertyName = null;
+		}
 	}
 }

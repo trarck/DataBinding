@@ -88,6 +88,16 @@ namespace DataBinding.PropertyProviders
 			}
 		}
 
+		public override void Clean()
+		{
+			m_SourceToTargetConvert = null;
+			m_TargetToSourceConvert = null;
+			m_SourcePropertyType = null;
+			m_TargetPropertyType = null;
+
+			base.Clean();
+		}
+
 		private TTargetProperty DefaultSourceToTarget(TSourceProperty v)
 		{
 			return (TTargetProperty)Convert.ChangeType(v, m_TargetPropertyType);

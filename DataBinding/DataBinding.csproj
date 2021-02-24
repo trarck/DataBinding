@@ -52,9 +52,6 @@
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\PropertyBindingProvider.cs" />
     <Compile Include="DataBinding\BindingProviders\PropertyProviders\SystemConvertProvider.cs" />
     <Compile Include="DataBinding\IBinding.cs" />
-    <Compile Include="DataBinding\BindingProviders\PropertyProviders\FloatStringProvider.cs" />
-    <Compile Include="DataBinding\BindingProviders\PropertyProviders\ShortStringProvider.cs" />
-    <Compile Include="DataBinding\BindingProviders\PropertyProviders\IntStringProvider.cs" />
     <Compile Include="DataBinding\PropertyPath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

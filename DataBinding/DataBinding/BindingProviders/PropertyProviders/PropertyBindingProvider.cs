@@ -44,6 +44,16 @@ namespace DataBinding.PropertyProviders
 			
 		}
 
+		public override void Clean()
+		{
+			m_SourceGetter = null;
+			m_SourceSetter = null;
+			m_TargetGetter = null;
+			m_TargetSetter = null;
+
+			base.Clean();
+		}
+
 		public Func<TSourceProperty> sourceGetter
 		{
 			get
